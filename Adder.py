@@ -20,7 +20,3 @@ class Adder:
         set_last_id(1, filepath)
         f = open(filepath + "store.txt", 'w')
         f.close()
-
-
-
-

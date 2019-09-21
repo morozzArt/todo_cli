@@ -26,7 +26,7 @@ def list():
     list_note = Shower.get_list_note()
     for note in list_note:
         print_cell(note.get_id)
-        print_cell(note.get_symdol_status)
+        print_cell(note.get_symbol_status)
         print_cell(note.get_date.split()[0])
         print(note.get_text)
 

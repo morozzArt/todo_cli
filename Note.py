@@ -1,6 +1,7 @@
 import json
 from datetime import datetime
 
+
 class Note:
     def __init__(self, text, id, status=False, date=datetime.now()):
         self.id = id
@@ -12,7 +13,7 @@ class Note:
         self.status = new_status
 
     @property
-    def get_symdol_status(self):
+    def get_symbol_status(self):
         if self.status:
             return "+"
         else:
